@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emeralddiscordbot.github.io/sitemap.xml
