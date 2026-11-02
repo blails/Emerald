@@ -1,0 +1,737 @@
+[
+  {
+    "name": "autoreply add",
+    "description": "Add a new auto-reply trigger",
+    "category": "Auto Replies"
+  },
+  {
+    "name": "autoreply list",
+    "description": "List all auto-reply triggers",
+    "category": "Auto Replies"
+  },
+  {
+    "name": "autoreply remove",
+    "description": "Remove an auto-reply trigger",
+    "category": "Auto Replies"
+  },
+  {
+    "name": "autoreply setup",
+    "description": "Setup advanced auto-reply system",
+    "category": "Auto Replies"
+  },
+  {
+    "name": "autoreply test",
+    "description": "Test an auto-reply trigger",
+    "category": "Auto Replies"
+  },
+  {
+    "name": "automod bad-url",
+    "description": "Manage blocked URLs (patterns)",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod badwords",
+    "description": "Manage filtered words",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod config",
+    "description": "Configure auto-moderation settings",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod escalation",
+    "description": "Configure advanced AutoMod settings",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod exemption",
+    "description": "Add or remove a role/channel AutoMod exemption",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod honeypot disable",
+    "description": "Disable and delete the honeypot channel",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod honeypot setup",
+    "description": "Create a honeypot channel to catch spam bots",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod recent-actions",
+    "description": "Review recent AutoMod violations recorded for this server",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod status",
+    "description": "Show enabled AutoMod rules and missing exemptions",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod test",
+    "description": "Test auto-moderation rules",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod test-rule",
+    "description": "Simulate a configured AutoMod rule against sample text",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod whitelist add-channel",
+    "description": "Add channel to automod whitelist",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod whitelist add-role",
+    "description": "Add role to automod whitelist",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod whitelist remove-channel",
+    "description": "Remove channel from automod whitelist",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod whitelist remove-role",
+    "description": "Remove role from automod whitelist",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "automod whitelist view",
+    "description": "View current whitelist settings",
+    "category": "AutoMod & Protection"
+  },
+  {
+    "name": "bump dashboard",
+    "description": "Open the bump system dashboard",
+    "category": "Bump Network"
+  },
+  {
+    "name": "channels clear",
+    "description": "Bulk delete messages",
+    "category": "Channel Management"
+  },
+  {
+    "name": "channels lock",
+    "description": "Lock a channel",
+    "category": "Channel Management"
+  },
+  {
+    "name": "channels lockdown",
+    "description": "Lock all channels in the server",
+    "category": "Channel Management"
+  },
+  {
+    "name": "channels nuke",
+    "description": "Clone and clear channel",
+    "category": "Channel Management"
+  },
+  {
+    "name": "channels slowmode",
+    "description": "Set slowmode for a channel",
+    "category": "Channel Management"
+  },
+  {
+    "name": "channels unlock",
+    "description": "Unlock a channel",
+    "category": "Channel Management"
+  },
+  {
+    "name": "channels unlockdown",
+    "description": "Unlock all channels in the server",
+    "category": "Channel Management"
+  },
+  {
+    "name": "community birthday list",
+    "description": "List upcoming public birthdays",
+    "category": "Community"
+  },
+  {
+    "name": "community birthday set",
+    "description": "Save your birthday and privacy settings",
+    "category": "Community"
+  },
+  {
+    "name": "community birthday setup",
+    "description": "Set the channel for public birthday announcements",
+    "category": "Community"
+  },
+  {
+    "name": "community birthdays",
+    "description": "Show upcoming public birthdays",
+    "category": "Community"
+  },
+  {
+    "name": "community counting leaderboard",
+    "description": "Show the counting leaderboard",
+    "category": "Community"
+  },
+  {
+    "name": "community counting setup",
+    "description": "Configure the counting channel",
+    "category": "Community"
+  },
+  {
+    "name": "community counting status",
+    "description": "Check the counting channel and current number",
+    "category": "Community"
+  },
+  {
+    "name": "community giveaway create",
+    "description": "Create a reaction-based giveaway",
+    "category": "Community"
+  },
+  {
+    "name": "community giveaway end",
+    "description": "End a giveaway now by its message ID",
+    "category": "Community"
+  },
+  {
+    "name": "community giveaway reroll",
+    "description": "Pick a new winner from an ended giveaway",
+    "category": "Community"
+  },
+  {
+    "name": "community poll",
+    "description": "Create a poll",
+    "category": "Community"
+  },
+  {
+    "name": "community poll-close",
+    "description": "Close a scheduled poll now and post its results",
+    "category": "Community"
+  },
+  {
+    "name": "community reminder",
+    "description": "Set a reminder",
+    "category": "Community"
+  },
+  {
+    "name": "community reminders cancel",
+    "description": "Cancel one of your reminders",
+    "category": "Community"
+  },
+  {
+    "name": "community reminders list",
+    "description": "List your active reminders",
+    "category": "Community"
+  },
+  {
+    "name": "community scheduled-poll",
+    "description": "Create a poll that automatically closes and posts results",
+    "category": "Community"
+  },
+  {
+    "name": "community starboard",
+    "description": "Setup or disable the starboard system",
+    "category": "Community"
+  },
+  {
+    "name": "community suggestions review",
+    "description": "Set a suggestion's status and optional public response",
+    "category": "Community"
+  },
+  {
+    "name": "community suggestions setup",
+    "description": "Choose the channel where suggestions are posted",
+    "category": "Community"
+  },
+  {
+    "name": "community suggestions submit",
+    "description": "Submit a suggestion for the server",
+    "category": "Community"
+  },
+  {
+    "name": "economy achievements",
+    "description": "View your unlocked economy achievements",
+    "category": "Economy"
+  },
+  {
+    "name": "economy balance",
+    "description": "Check your current balance",
+    "category": "Economy"
+  },
+  {
+    "name": "economy buy",
+    "description": "Purchase an item from the shop",
+    "category": "Economy"
+  },
+  {
+    "name": "economy config",
+    "description": "Configure the economy system for your server",
+    "category": "Economy"
+  },
+  {
+    "name": "economy daily",
+    "description": "Claim your daily reward",
+    "category": "Economy"
+  },
+  {
+    "name": "economy inventory",
+    "description": "View your inventory",
+    "category": "Economy"
+  },
+  {
+    "name": "economy leaderboard",
+    "description": "Show the server economy leaderboard",
+    "category": "Economy"
+  },
+  {
+    "name": "economy quest",
+    "description": "View, claim, or configure this week's economy quests",
+    "category": "Economy"
+  },
+  {
+    "name": "economy shop",
+    "description": "View the shop items",
+    "category": "Economy"
+  },
+  {
+    "name": "economy work",
+    "description": "Work a job – solve a challenge to earn money!",
+    "category": "Economy"
+  },
+  {
+    "name": "explore adventure",
+    "description": "Go on an adventure – random events await!",
+    "category": "Explore"
+  },
+  {
+    "name": "explore mine",
+    "description": "Go mining for ores and gems",
+    "category": "Explore"
+  },
+  {
+    "name": "fun 8ball",
+    "description": "Ask the magic 8-ball a question",
+    "category": "Fun"
+  },
+  {
+    "name": "fun meme",
+    "description": "Get a random meme",
+    "category": "Fun"
+  },
+  {
+    "name": "fun wyr",
+    "description": "Would you rather...?",
+    "category": "Fun"
+  },
+  {
+    "name": "levels leaderboard",
+    "description": "Show level leaderboard",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels milestones",
+    "description": "Configure special level milestone announcements",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels profile",
+    "description": "View a member's level profile and progress",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels rank",
+    "description": "Check your level rank",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels reward",
+    "description": "Add role reward for level",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels rewards",
+    "description": "List the server's configured level role rewards",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels setup",
+    "description": "Setup leveling system",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels status",
+    "description": "Check leveling state and announcement configuration",
+    "category": "Leveling"
+  },
+  {
+    "name": "levels xp",
+    "description": "Check your XP",
+    "category": "Leveling"
+  },
+  {
+    "name": "logging disable",
+    "description": "Disable logging system",
+    "category": "Logging"
+  },
+  {
+    "name": "logging setup",
+    "description": "Setup advanced logging system",
+    "category": "Logging"
+  },
+  {
+    "name": "logging status",
+    "description": "Check logging system status",
+    "category": "Logging"
+  },
+  {
+    "name": "media emoji",
+    "description": "Import an emoji you own or have permission to use",
+    "category": "Media Tools"
+  },
+  {
+    "name": "media sticker",
+    "description": "Import a sticker you own or have permission to use",
+    "category": "Media Tools"
+  },
+  {
+    "name": "moderation audit",
+    "description": "View recent moderation actions",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation ban",
+    "description": "Ban a user from the server",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation case",
+    "description": "View a specific moderation case",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation hack-ban",
+    "description": "Ban a user not currently in the server",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation history",
+    "description": "Show a combined moderation timeline for a member",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation kick",
+    "description": "Kick a user from the server",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation mass-ban",
+    "description": "Ban multiple users at once",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation mass-kick",
+    "description": "Kick multiple users at once",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation nickname",
+    "description": "Change a user's nickname",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation note",
+    "description": "Save an internal moderator note about a member",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation role",
+    "description": "Add or remove a role from a user",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation soft-ban",
+    "description": "Ban and immediately unban to delete messages",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation stats",
+    "description": "Show moderation statistics",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation temp-ban",
+    "description": "Temporarily ban a user",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation temp-mute",
+    "description": "Temporarily mute a user",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warn",
+    "description": "Warn a user",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warnings bulk",
+    "description": "Warn multiple users at once",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warnings clear",
+    "description": "Clear all warnings for a specific user",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warnings count",
+    "description": "Check how many warnings a user has",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warnings list",
+    "description": "List warning history for a member or the server",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warnings remove",
+    "description": "Remove one warning by case ID or 1-based warning number",
+    "category": "Moderation"
+  },
+  {
+    "name": "moderation warnings user",
+    "description": "Show a member's warning count and latest warning",
+    "category": "Moderation"
+  },
+  {
+    "name": "diagnostics",
+    "description": "Check Emerald health and basic setup.",
+    "category": "Other"
+  },
+  {
+    "name": "help",
+    "description": "Browse Emerald command groups and usage.",
+    "category": "Other"
+  },
+  {
+    "name": "ping",
+    "description": "Check Emerald response latency.",
+    "category": "Other"
+  },
+  {
+    "name": "premium",
+    "description": "Open the Premium hub and exclusive tools.",
+    "category": "Other"
+  },
+  {
+    "name": "privacy",
+    "description": "Review privacy information and request deletion of your Emerald-managed data.",
+    "category": "Other"
+  },
+  {
+    "name": "settings",
+    "description": "Open the central server settings dashboard.",
+    "category": "Other"
+  },
+  {
+    "name": "owner",
+    "description": "Open the owner-only Premium management dashboard.",
+    "category": "Owner Tools"
+  },
+  {
+    "name": "owner analytics",
+    "description": "View private bot-wide usage, uptime, Premium and error statistics.",
+    "category": "Owner Tools"
+  },
+  {
+    "name": "owner dashboard",
+    "description": "Open the private owner control panel.",
+    "category": "Owner Tools"
+  },
+  {
+    "name": "reactionroles list",
+    "description": "List all reaction roles",
+    "category": "Reaction Roles"
+  },
+  {
+    "name": "reactionroles remove",
+    "description": "Remove a reaction role",
+    "category": "Reaction Roles"
+  },
+  {
+    "name": "reactionroles setup",
+    "description": "Interactive reaction role setup",
+    "category": "Reaction Roles"
+  },
+  {
+    "name": "security raid activate-lockdown",
+    "description": "Manually activate server lockdown",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security raid deactivate-lockdown",
+    "description": "Deactivate server lockdown",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security raid lockdown",
+    "description": "Manually activate server lockdown for raid protection",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security raid setup",
+    "description": "Setup anti-raid protection",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security raid status",
+    "description": "Check anti-raid system status",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security raid unlock",
+    "description": "Deactivate server lockdown from raid protection",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security status",
+    "description": "Check raid protection and verification state",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security verification disable",
+    "description": "Disable verification system",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security verification setup",
+    "description": "Setup verification system with captcha",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "security verification verify",
+    "description": "Manually verify a user",
+    "category": "Security & Verification"
+  },
+  {
+    "name": "server backup",
+    "description": "Backup server configuration",
+    "category": "Server Tools"
+  },
+  {
+    "name": "server info",
+    "description": "Get information about the server",
+    "category": "Server Tools"
+  },
+  {
+    "name": "server user",
+    "description": "Get information about a user",
+    "category": "Server Tools"
+  },
+  {
+    "name": "setup status",
+    "description": "Privately inspect the main Emerald modules",
+    "category": "Setup & Diagnostics"
+  },
+  {
+    "name": "setup wizard",
+    "description": "Configure the main Emerald modules in one guided step",
+    "category": "Setup & Diagnostics"
+  },
+  {
+    "name": "tag create",
+    "description": "Create a new tag",
+    "category": "Tags"
+  },
+  {
+    "name": "tag edit",
+    "description": "Edit an existing tag",
+    "category": "Tags"
+  },
+  {
+    "name": "tag list",
+    "description": "List all tags",
+    "category": "Tags"
+  },
+  {
+    "name": "tag remove",
+    "description": "Remove a tag",
+    "category": "Tags"
+  },
+  {
+    "name": "tag show",
+    "description": "Show a tag",
+    "category": "Tags"
+  },
+  {
+    "name": "tag stats",
+    "description": "Show which server tags are used most often",
+    "category": "Tags"
+  },
+  {
+    "name": "tickets close",
+    "description": "Close a ticket",
+    "category": "Tickets"
+  },
+  {
+    "name": "tickets panel",
+    "description": "Create a professional ticket panel",
+    "category": "Tickets"
+  },
+  {
+    "name": "tickets setup",
+    "description": "Setup or update ticket system (enable/disable, roles, category, logging)",
+    "category": "Tickets"
+  },
+  {
+    "name": "tickets status",
+    "description": "Check ticket configuration and saved channels",
+    "category": "Tickets"
+  },
+  {
+    "name": "voice disconnect",
+    "description": "Disconnect all members from a voice channel",
+    "category": "Voice Moderation"
+  },
+  {
+    "name": "voice kick",
+    "description": "Disconnect a user from voice channel",
+    "category": "Voice Moderation"
+  },
+  {
+    "name": "voice move",
+    "description": "Move all members from one voice channel to another",
+    "category": "Voice Moderation"
+  },
+  {
+    "name": "voice mute",
+    "description": "Server mute a user in voice channel",
+    "category": "Voice Moderation"
+  },
+  {
+    "name": "voice unmute",
+    "description": "Unmute a user in voice channel",
+    "category": "Voice Moderation"
+  },
+  {
+    "name": "messages leave setup",
+    "description": "Configure leave messages",
+    "category": "Welcome & Messages"
+  },
+  {
+    "name": "messages leave test",
+    "description": "Test leave message",
+    "category": "Welcome & Messages"
+  },
+  {
+    "name": "messages status",
+    "description": "Check welcome and leave-message configuration",
+    "category": "Welcome & Messages"
+  },
+  {
+    "name": "messages welcome setup",
+    "description": "Setup or update welcome system (enable/disable, channel, message, auto‑roles, DM)",
+    "category": "Welcome & Messages"
+  },
+  {
+    "name": "messages welcome test",
+    "description": "Test welcome message",
+    "category": "Welcome & Messages"
+  }
+]

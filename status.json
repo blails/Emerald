@@ -1,0 +1,6 @@
+{
+  "status": "unknown",
+  "message": "Live bot monitoring is not connected yet. Check Emerald in Discord with /ping or /diagnostics.",
+  "last_updated": null,
+  "source": "Configure this file from a trusted bot health monitor before showing a live status."
+}
